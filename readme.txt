@@ -1,1 +1,1 @@
-Add this file into folder /src/addons/XSIM
+Add this file into folder /src/addons/Xsim

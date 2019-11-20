@@ -4,11 +4,6 @@
 
 class Xsim_index {
 
-    public static function getHtml() {
-        $output = 'Hello World';
-        return $output;
-    }
-
     public static function getTextAd() {
         $ads = array();
 
