@@ -4,14 +4,17 @@
 
 class Xsim_index {
 
+    /**
+     * This can be called in xenforo with '<xen:callback class="Xsim_index" method="getTextAd"></xen:callback>'
+     */
     public static function getTextAd() {
         $ads = array();
 
-        $ads[] = 'DOF Reality: Affordable Plug & Play Motion Simulators from $749<br>
-<a href="https://dofreality.com/?utm_campaign=txt1&utm_source=xsim">https://dofreality.com/?utm_campaign=txt1&utm_source=xsim</a>';
+        $ads[] = 'Advertisment<br>DOF Reality: Affordable Plug & Play Motion Simulators from $749<br>
+<a href="https://dofreality.com/?utm_campaign=txt1&utm_source=xsim">https://dofreality.com</a>';
 
-        $ads[] = 'DOF Reality:  Ready to Play 2-6 DOF Full Motion Simulators from $749<br>
-<a href="https://dofreality.com/?utm_campaign=txt1&utm_source=xsim">https://dofreality.com/?utm_campaign=txt2&utm_source=xsim</a>';
+        $ads[] = 'Advertisment<br>DOF Reality:  Ready to Play 2-6 DOF Full Motion Simulators from $749<br>
+<a href="https://dofreality.com/?utm_campaign=txt1&utm_source=xsim">https://dofreality.com</a>';
         
         shuffle($ads);
         
